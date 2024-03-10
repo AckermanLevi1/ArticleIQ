@@ -1,40 +1,16 @@
 
-# RockyBot: News Research Tool 
+# ArticleIQ: "Decode Articles, Discover Wisdom."
 
-RockyBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
-
-![](rockybot.jpg)
+ArticleIQ is a user-friendly news research tool designed to facilitate effortless information retrieval across diverse domains. Users can easily input article URLs and ask questions, receiving relevant insights spanning a wide range of topics. Whether you're delving into technology, health, science, or any other domain, ArticleIQ empowers users with a seamless and intuitive platform for informed decision-making based on comprehensive research
 
 ## Features
 
-- Load URLs or upload text files containing URLs to fetch article content.
+- Load URLs to fetch article content.
 - Process article content through LangChain's UnstructuredURL Loader
-- Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
+- Construct an embedding vector using MistralAI embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
 
-## Installation
-
-1.Clone this repository to your local machine using:
-
-```bash
-  git clone https://github.com/codebasics/langchain.git
-```
-2.Navigate to the project directory:
-
-```bash
-  cd 2_news_research_tool_project
-```
-3. Install the required dependencies using pip:
-
-```bash
-  pip install -r requirements.txt
-```
-4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
-
-```bash
-  OPENAI_API_KEY=your_api_key_here
-```
 ## Usage/Examples
 
 1. Run the Streamlit app by executing:
@@ -65,4 +41,4 @@ streamlit run main.py
 - main.py: The main Streamlit application script.
 - requirements.txt: A list of required Python packages for the project.
 - faiss_store_openai.pkl: A pickle file to store the FAISS index.
-- .env: Configuration file for storing your OpenAI API key.
+- .env: Configuration file for storing your HuggingFace API key.
