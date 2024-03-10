@@ -21,7 +21,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
-st.title("ArtiBot: A Research Tool 📈")
+st.title("ArticleIQ: A Research Tool 📈")
 st.sidebar.title("Article URLs")
 
 urls = []
