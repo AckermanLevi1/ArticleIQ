@@ -3,6 +3,10 @@
 
 ArticleIQ is a user-friendly news research tool designed to facilitate effortless information retrieval across diverse domains. Users can easily input article URLs and ask questions, receiving relevant insights spanning a wide range of topics. Whether you're delving into technology, health, science, or any other domain, ArticleIQ empowers users with a seamless and intuitive platform for informed decision-making based on comprehensive research
 
+## Our Demo Video
+[CLick this](https://drive.google.com/file/d/1ygL-XWVFEbDsimaV1y9-1qkmPKWXUwn_/view?usp=sharing)
+
+
 ## Features
 
 - Load URLs to fetch article content.
