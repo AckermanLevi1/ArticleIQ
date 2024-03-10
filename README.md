@@ -6,16 +6,16 @@ ArticleIQ is a user-friendly news research tool designed to facilitate effortles
 ## Features
 
 - Load URLs to fetch article content.
-- Process article content through LangChain's UnstructuredURL Loader
+- Process article content through LangChain's WebbasedURL Loader
 - Construct an embedding vector using MistralAI embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
-- Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
+- Interact with the LLM by inputting queries and receiving answers along with source URLs.
 
 
 ## Usage/Examples
 
 1. Run the Streamlit app by executing:
 ```bash
-streamlit run main.py
+python -m streamlit run main.py
 
 ```
 
